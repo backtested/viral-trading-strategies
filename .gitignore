@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+# your data and your runs stay local
+examples/sample_data/
+cases/*/out/
+data/
+*.parquet
+.DS_Store

@@ -1,0 +1,12 @@
+{
+ "window": "2026-07-17 (video goes viral) to 2026-10-30",
+ "recorded_sessions": 70,
+ "trades": 47,
+ "won": 22,
+ "lost": 25,
+ "candle_claim_held_pct": 87.2,
+ "gross_bp_mean": -8.8,
+ "gross_t": -0.47,
+ "stock_rs_total_at_1L_per_trade_after_costs": -10078,
+ "cost_note": "charges + per-stock bid-ask half-spread measured from our own quote data (not published); with the repo's flat --half-spread-bp default your figure will differ slightly"
+}

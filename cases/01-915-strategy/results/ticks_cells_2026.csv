@@ -1,0 +1,6 @@
+cell,sessions,n,C1_same_colour,gross_bp,median_bp,win,t
+"canonical: top loser, red at 9:15:40, gap filter",127,92,0.848,-3.9,-5.8,0.478,-0.3
+"top loser, red, no gap filter",127,108,0.843,-6.2,-5.8,0.481,-0.53
+"top loser, either colour",127,122,0.82,-2.1,-3.8,0.492,-0.18
+"top gainer + top loser, colour agrees",127,218,0.817,-8.6,-5.8,0.472,-0.76
+"top-5 each side, colour agrees",127,1090,0.823,2.3,0.0,0.498,0.61
