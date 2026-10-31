@@ -2,7 +2,7 @@
 
 > "Red candle at 9:15? Buy the put. It stays red for 15 minutes. Good night at 9:30."
 
-▶ **Watch the episode:** *link coming soon*
+▶ **Watch the episode:** [https://youtu.be/wTFa6A3pCkM](https://youtu.be/wTFa6A3pCkM)
 
 | File | What it is |
 |---|---|

@@ -10,7 +10,7 @@ code behind every episode, so you don't have to trust us: **run it yourself.**
 
 | # | Strategy | The claim | What the data says | Video | Code |
 |---|---|---|---|---|---|
-| 01 | **The 9:15 strategy**: at 9:15 take the top loser; if the first 1-minute candle is red, buy the ATM put; exit 09:30 | "Red candle stays red for 15 minutes" · "only 3 stop-losses in 20 days" | Candle claim **true** (80.5%, 10 years). Trade **loses**: −21.2 bp per trade before costs, 43.6% winners, **0 of 24** rule variants pass. Since the video went viral: 47 trades, 22 won, 25 lost. | *link coming soon* | [`cases/01-915-strategy`](cases/01-915-strategy) |
+| 01 | **The 9:15 strategy**: at 9:15 take the top loser; if the first 1-minute candle is red, buy the ATM put; exit 09:30 | "Red candle stays red for 15 minutes" · "only 3 stop-losses in 20 days" | Candle claim **true** (80.5%, 10 years). Trade **loses**: −21.2 bp per trade before costs, 43.6% winners, **0 of 24** rule variants pass. Since the video went viral: 47 trades, 22 won, 25 lost. | [▶ Watch](https://youtu.be/wTFa6A3pCkM) | [`cases/01-915-strategy`](cases/01-915-strategy) |
 
 Each case folder has the same four files:
 
