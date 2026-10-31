@@ -1,4 +1,4 @@
-<p align="center"><b>BACKTESTED</b><br/>Viral trading strategies, tested on real market data.<br/><i>Sach ya jhooth? We let the data decide.</i></p>
+<p align="center"><b>BACKTESTED</b><br/>Viral trading strategies, tested on real market data.<br/><i>Sach ya jhooth? We let the data decide.</i><br/><a href="https://www.youtube.com/@ai_backtested">▶ Watch on YouTube: @ai_backtested</a></p>
 
 ---
 
@@ -85,4 +85,4 @@ including ours, don't predict future returns. Don't trade based on any YouTube v
 Code: MIT (see [`LICENSE`](LICENSE)). Use it, change it, test your own ideas with it.
 
 ---
-YouTube: **BACKTESTED** (link coming soon) · Have a viral strategy you want tested? Open an issue with the video and the rules.
+YouTube: **[@ai_backtested](https://www.youtube.com/@ai_backtested)** · Have a viral strategy you want tested? Open an issue with the video and the rules.
