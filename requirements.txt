@@ -1,3 +1,4 @@
 numpy>=1.24
 pandas>=2.0
 pyarrow>=14  # optional: only needed for .parquet input
+numba>=0.58  # optional: speeds up case 02's engine (minutes instead of hours on 210 stocks)

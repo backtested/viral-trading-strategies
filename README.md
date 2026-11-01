@@ -11,10 +11,11 @@ code behind every episode, so you don't have to trust us: **run it yourself.**
 | # | Strategy | The claim | What the data says | Video | Code |
 |---|---|---|---|---|---|
 | 01 | **The 9:15 strategy**: at 9:15 take the top loser; if the first 1-minute candle is red, buy the ATM put; exit 09:30 | "Red candle stays red for 15 minutes" · "only 3 stop-losses in 20 days" | Candle claim **true** (80.5%, 10 years). Trade **loses**: −21.2 bp per trade before costs, 43.6% winners, **0 of 24** rule variants pass. Since the video went viral: 47 trades, 22 won, 25 lost. | [▶ Watch](https://youtu.be/wTFa6A3pCkM) | [`cases/01-915-strategy`](cases/01-915-strategy) |
+| 02 | **Liquidity-sweep scalping**: yesterday's high/low swept on the 1-minute chart, opposite candle, enter on its break; 75% at 1:1, 25% to 1:10 | "1:10 trades; 1:3 is my failure trade" · "world's best strategy" | A **coin flip** before costs (49% winners, +₹60,258 in 10 years at ₹1,000 risk a trade); the one-candle stop makes each position ~₹20 lakh, so costs (₹26.49 lakh) sink it: **−₹25.89 lakh**, 5,220 NIFTY trades, **0 of 32** variants pass. 10R reached in 1 trade of 20. | Coming soon | [`cases/02-sweep-scalping`](cases/02-sweep-scalping) |
 
 Each case folder has the same four files:
 
-- `PROTOCOL.md`: the rules, the claims and every variant to test, written **before** the first run. (Case 01's protocol was written at 10:50 on 31 Oct 2026, a minute before the first result at 10:51, and published here afterwards. From case 02 on, the protocol is committed to this repo before the first run, so the commit history is the proof.)
+- `PROTOCOL.md`: the rules, the claims and every variant to test, written **before** the first run. (Case 01's protocol was written at 10:50 on 31 Oct 2026, a minute before the first result at 10:51, and published here afterwards. Case 02's was also written before its first run and published with the code; see the note at the end of its PROTOCOL.md. From case 03 on, the protocol is committed to this repo before the first run, so the commit history is the proof.)
 - `strategy.py`: the rules as code. Plain Python + pandas, no framework.
 - `RESULTS.md`: what we found, with the caveats.
 - `results/`: our aggregate output files, so you can diff your run against ours.
@@ -52,7 +53,8 @@ Angel One SmartAPI or Fyers; check what your account includes), or paid NSE data
 conclusions in `RESULTS.md` should not.
 
 Our run is reproducible to the trade: on our data, this exact code gives 1,432 trades, −21.25 bp and 43.6% winners for
-the main variant, and −₹2,97,183 in the option model, identical to the video.
+the main variant, and −₹2,97,183 in the option model, identical to the video. Case 02 too: all 32 cells, 5,220 NIFTY
+trades and −₹25,89,225 at ₹1,000 risk a trade, plus all 915 tick-replay trades, identical.
 
 ## Use it with AI coding tools
 
@@ -65,6 +67,7 @@ Open the folder in your tool and try:
 - *"Explain, using cases/01-915-strategy/results, why the candle claim is true but the trade still loses."*
 - *"Create case 02 for the opening range breakout strategy described below. Write PROTOCOL.md first and commit it before writing any code."*
 - *"Plot the ₹ path from results/path_option_rs.csv and mark 2022."*
+- *"Run case 02 with the stop at the swing instead of one candle (an amendment first). Do costs still sink it?"*
 
 ## The rules we hold ourselves to
 
