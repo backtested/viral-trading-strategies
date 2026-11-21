@@ -2,7 +2,7 @@
 
 > "Yesterday's high breaks, a red candle, its low breaks: short. Book 75% at 1:1, let the rest run to 1:10."
 
-▶ **Watch the episode:** link added after upload ([@ai_backtested](https://www.youtube.com/@ai_backtested))
+▶ **Watch the episode:** link added after upload ([@back_tested](https://www.youtube.com/@back_tested))
 
 | File | What it is |
 |---|---|
